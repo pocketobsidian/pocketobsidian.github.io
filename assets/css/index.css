@@ -23,6 +23,6 @@ body {
   .offcanvas-collapse.open {
     /*left: 0;*/
     visibility: visible;
-    transform: translateZ(-100%);
+    transform: translateX(100%);
   }
 }
