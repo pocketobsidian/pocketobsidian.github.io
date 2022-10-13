@@ -13,7 +13,7 @@ body {
     top: 56px; /*height of navbar*/
     bottom: 0;
     right: 100%;
-    width: 100%;
+    width: 85%;
     padding: 0 1rem;
     overflow-y: auto;
     visibility: hidden;
