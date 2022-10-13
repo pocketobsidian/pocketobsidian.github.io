@@ -10,15 +10,15 @@ body {
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 58px; /*height of navbar*/
+    top: 55px; /*height of navbar*/
     bottom: 0;
     left: 100%;
     width: 85%;
     padding: 0 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #343a40;
-    transition: transform .3s ease-in-out, visibility .4s ease-in-out;
+    background-color: #fff;
+    transition: transform .4s ease-in-out, visibility .4s ease-in-out;
   }
   .offcanvas-collapse.open {
     visibility: visible;
