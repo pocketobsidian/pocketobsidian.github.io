@@ -1,1 +1,0 @@
-# safirymine.github.io
