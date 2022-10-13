@@ -21,7 +21,8 @@ body {
     transition: transform .4s ease-in-out, visibility .4s ease-in-out;
   }
   .offcanvas-collapse.open {
+    left: 0;
     visibility: visible;
-    transform: translateZ(-100%);
+    /*transform: translate(-100%);*/
   }
 }
