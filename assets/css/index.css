@@ -21,7 +21,7 @@ body {
     padding: 0 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #000;
+    /*background-color: #000;*/
     transition: transform .5s ease-in-out, visibility .5s ease-in-out;
   }
   .offcanvas-collapse.open {
