@@ -11,6 +11,23 @@ body {
   background-color: #761991;
 }
 
+.bi {
+ vertical-align: -125em;
+ fill: currentColor;
+}
+
+.feature-icon {
+ color: #fff;
+ width: 4rem;
+ height: 4rem;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 1rem;
+ font-size: 2rem;
+ border-radius: .75rem;
+}
+
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
