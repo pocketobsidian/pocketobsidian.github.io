@@ -6,9 +6,9 @@
  <meta name="theme-color" content="#761991">
 
  <meta name="title" content="PocketObsidian">
- <meta name="description" content="Server software for Minecraft: Bedrock Edition written in C++">
+ <meta name="description" content="Server software for Minecraft Bedrock Edition written in C++">
 
- <meta property="og:type" content="website">
+ <meta property="og:type" content="article">
  <meta property="og:title" content="Home">
  <meta property="og:locale" content="en_US">
  <meta property="og:url" content="https://pocketobsidian.github.io">
@@ -34,6 +34,7 @@
  <link rel="manifest" href="public/brand/site.webmanifest">
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
  <link rel="stylesheet" href="../assets/css/index.css" type="text/css">
 
  <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -48,12 +49,15 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="bg-purple navbar-collapse offcanvas-collapse" id="navbarExample">
-     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-       <a class="nav-link active" aria-current="page" href="/">Home</a>
+     <ul class="navbar-nav me-auto mt-3 mb-2 mb-lg-0">
+      <li class="my-1 mx-2 nav-item">
+       <a class="fs-3 nav-link active" aria-current="page" href="/">Home</a>
       </li>
-      <li class="nav-item">
-       <a class="nav-link" href="../docs">Documentation</a>
+      <li class="my-1 mx-2 nav-item">
+       <a class="fs-3 nav-link" href="../docs">See source</a>
+      </li>
+      <li class="my-1 mx-2 nav-item">
+       <a class="fs-3 nav-link" href="#">Forums</a>
       </li>
      </ul>
     </div>
@@ -71,25 +75,47 @@
   </div>
   <div class="p-3 my-3 bg-light rounded">
     <div class="d-flex flex-column my-4 align-items-center justify-content-md-center">
-     <a class="p-2 mb-2 w-75 btn btn-primary" target="_blank" href="https://github.com/pocketobsidian/PocketObsidian">Github</a>
-     <a class="p-2 mb-2 w-75 btn btn-dark" target="_blank" href="../">Get Software</a>
+      <a class="p-2 mb-2 w-75 btn btn-primary" target="_blank" href="https://github.com/pocketobsidian/PocketObsidian">Github</a>
+      <a class="p-2 mb-2 w-75 btn btn-dark" target="_blank" href="../">Get Software</a>
     </div>
     <h5 class="display-6 mt-2 mb-2 text-muted text-center">Introducing the Minecraft: Bedrock Edition Server Software in C++</h5>
-    <p class="fs-5 fst-normal mb-2 lead text-center">Full gameplay control. 100% open source and free.</p>
+    <p class="fs-5 fst-normal pt-2 pb-2 lead text-center">Full gameplay control. 100% open source and free.</p>
     <hr>
-    <div class="px-4 py-5" id="icon-grid">
-     <h2 class="pb-2 border-bottom">Features</h2>
-     <div class="row g-4 py-5 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-      <div class="col d-flex align-items-start">
-      <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
-      <div>
-       <h3 class="mb-0 fw-bold">Multi-world System</h3>
-       <p>Paragraph of text beneath the heading to explain the heading.</p>
+  </div>
+  <div class="p-3 my-3 bg-light rounded">
+    <div class="px-4 py-3" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Features</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        <div class="mb-2 col d-flex align-items-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" class="bi bi-globe2 text-muted flex-shrink-0 m-3" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+          </svg>
+          <div>
+            <h4 class="fw-bold mb-0">Multi-world System</h4>
+            <p>Load multiple different levels at the same time and teleport freely back and forth.</p>
+          </div>
+        </div>
+        <div class="mb-2 col d-flex align-items-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" class="bi bi-tools text-muted flex-shrink-0 m-3" viewBox="0 0 16 16">
+            <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364L.102 2.223zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11l.471.242z"/>
+            </svg>
+          <div>
+            <h4 class="fw-bold mb-0">Unlimited Control</h4>
+            <p>Full control over customization and server functions. Teleport players, whitelist the server and more.</p>
+          </div>
+        </div>
+        <div class="mb-2 col d-flex align-items-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" class="bi bi-plus-circle-fill text-muted flex-shrink-0 m-3" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+          </svg>
+          <div>
+            <h4 class="fw-bold mb-0">And, Much More</h4>
+            <p>Continuous support. Compatible with latest versions of Minecraft Bedrock.</p>
+          </div>
+        </div>
       </div>
-      </div>
-     </div>
     </div>
   </div>
- </main>
+  </main>
 </body>
 </html>
